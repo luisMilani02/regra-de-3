@@ -1,11 +1,3 @@
-// let n1 = document.getElementById("num1").value
-// let n2 = document.getElementById("num2").value
-// let n3 = document.getElementById("num3").value
-
-// let n01 = document.getElementById("num01").value
-// let n02 = document.getElementById("num02").value
-// let n03 = document.getElementById("num03").value
-
 function aviso() {
     alert("Antes de usar certifique-se de ler as instruções!")} 
 setTimeout(aviso, 3000)
