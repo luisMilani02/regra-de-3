@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regra de 3</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span id="span1">
+        <h1>Calculadora de regra de 3</h1>
+    </span> 
+
+    <div id="div">
+        <h2 id="txt1">Diretamente proporcional</h2>
+
+        <table>
+            <tr>
+                <th><input type="number" id="num1" placeholder="1º Número"></th>
+                
+                <th><input type="number" id="num3" placeholder="3º Número"></th>
+            </tr>
+            <tr>
+                <th><input type="number" id="num2" placeholder="2º Número"></th>
+
+                <th><button onclick="x1()" id="x1">X</button></th>
+            </tr>
+        </table>
+        <h3 id="resultado1">Resultado: = X</h3>
+    </div>
+
+    <hr>
+
+    <div id="div2">
+        <h2 id="txt2">Inversamente proporcional</h2>
+
+        <table>
+            <tr>
+                <th><input type="number" id="num01" placeholder="1º Número"></th>
+                <th><input type="number" id="num03" placeholder="3º Número"></th>
+            </tr>
+            <tr>
+                <th><input type="number" id="num02" placeholder="2º Número"></th>
+                <th><button onclick="x2()" id="x2">X</button></th>
+            </tr>
+        </table>
+        <h3 id="resultado2">Resultado: = X</h3>
+    </div>
+
+    <hr>
+
+    <section>
+        <h2>Instruçôes:</h2>
+        <p>Existem dois tipos de regras de 3, a diretamente proporcional e a inversamente proporsional.</p>
+        <p>Clique no X para efetuar o calculo</p>
+        
+        <hr>
+
+        <h2>Exemplo diretamente proporcional:</h2>
+        <p>Se um número aumenta ou diminui e outro tende a repetir use a primeira calculadora</p>
+        <div><img src="diretamente.png" alt="diretamente"></div>
+        
+        <hr>
+        
+        <h2>Exemplo inversamente proporcional:</h2>
+        <p>Se um número aumenta ou diminui e outro tende a fazer o contrario use a segunda calculadora</p>
+        <div><img src="inversamente.png" alt="inversamente"></div>
+    </section> 
+
+    <script src="script.js"></script>
+</body>
+</html>
