@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 body {
     margin-top: 0;
     padding-top: 0;
@@ -6,6 +10,7 @@ body {
 
 h1 {
     font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #span1 {
@@ -30,7 +35,6 @@ h1 {
     margin-bottom: 25px;
 }
 
-
 #div2 {
     display: flex;
     justify-content: center;
@@ -42,11 +46,13 @@ h1 {
 #txt1 {
     margin-top: 15vh;
     font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #txt2 {
     margin-top: 1.5vh;
     font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 button {
@@ -96,6 +102,11 @@ div {
     align-items: center;
     flex-direction: row;
 }
+
+h2 h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 @media (max-width: 750px) {
     h1 {
